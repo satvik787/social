@@ -1,0 +1,35 @@
+.box{
+    display: flex;
+    padding: 16px 8px;
+    justify-content: space-between;
+    color: whitesmoke;
+    background-color: #1f1f1f;
+}
+.user_icon{
+    border-radius: 50%;
+}
+.user_info{
+    display: flex;
+}
+.user_icon_wrapper{
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #3b3b3b;
+    border: 1px solid #232222;
+}
+.setting_icon{
+    margin-top: 10px;
+    margin-right: 14px;
+    width: 20px;
+    height: 20px;
+    color: gray;
+}
+.setting_icon:hover{
+    color: whitesmoke;
+}
+.status{
+    font-size: 12px;
+}

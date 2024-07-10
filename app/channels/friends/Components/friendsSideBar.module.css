@@ -1,0 +1,56 @@
+.box{
+    height: 90.7%;
+    background-color: #2c2b2b;
+    display: flex;
+    flex-direction: column;
+}
+.friends{
+    text-decoration: none;
+    margin: 16px;
+    height: 40px;
+    color: whitesmoke;
+    background-color: #424040;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.friends:hover{
+    background-color: #212020;
+}
+/*.search_box{*/
+/*    color: whitesmoke;*/
+/*    font-family: inherit;*/
+/*    font-size: 16px;*/
+/*    height: 12px;*/
+/*    border-radius: 4px;*/
+/*    margin-bottom: 16px;*/
+/*    padding: 10px;*/
+/*    margin-top: 16px;*/
+/*    background-color: #1f1f1f;*/
+/*    border:none;*/
+/*}*/
+/*.search_box:focus{*/
+/*    outline-style: none;*/
+/*    box-shadow: none;*/
+/*}*/
+.direct_msg_header{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.friends_list{
+    overflow-y: scroll;
+    scrollbar-color: #151414 #2c2c2d;
+}
+.all_friends{
+    width: 100%;
+
+}

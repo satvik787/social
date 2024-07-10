@@ -1,0 +1,12 @@
+.main_box{
+    height: 100%;
+    display: grid;
+    grid-template: 100% / 20% 80%;
+}
+.friends_list{
+    height: 100%;
+    grid-column: 1 / 2;
+}
+.children{
+    grid-column: 2 / 3;
+}
